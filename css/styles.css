@@ -32,15 +32,16 @@ body {
   align-items: center; /* Centers children vertically */
   justify-content: start; /* Aligns children to the start of the container */
   margin-bottom: 20px;
+
 }
 
 .input-group input[type='number'] {
   flex-grow: 0; /* Prevents the input from growing, it will now only be as wide as its content */
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #cfcfcf;
   border-radius: 4px;
-  font-size: 28px;
-  width: 70px;
+  font-size: 24px;
+  width: 87px;
   height: 70px;
   margin-right: 10px; /* Space between input and the following content */
   text-align: center;
@@ -51,6 +52,12 @@ body {
   white-space: nowrap; /* Prevents the label from wrapping */
 }
 
+.creator-tag{
+font-size:  27px;
+text-align: end;
+padding: 200px;
+color:rgb(236, 236, 33)
+}
 /* If you have specific styling for buttons or other elements, you can include them here */
 
 /* Remove the media queries that alter the flex-direction to 'column' */
