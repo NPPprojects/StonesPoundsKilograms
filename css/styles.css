@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 32px;
+  background: #1f1e1e;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Converter Container Styles */
+.converter-container {
+  display: flex; /* Aligns children (input and label) inline */
+  justify-content: space-around; /* Centers children horizontally */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px;
+  
+  background: #999494;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 28px;
+}
+
+.converter-title {
+  color: #f700ff; /* Example color - set this to what fits your design */
+  text-align: center; /* Center the title if desired */
+  margin-bottom: 20px; /* Space below the title */
+}
+/* Input Group Styles */
+.input-group {
+ 
+  display: flex; /* Aligns children (input and label) inline */
+  align-items: center; /* Centers children vertically */
+  justify-content: start; /* Aligns children to the start of the container */
+  margin-bottom: 20px;
+}
+
+.input-group input[type='number'] {
+  flex-grow: 0; /* Prevents the input from growing, it will now only be as wide as its content */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 28px;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px; /* Space between input and the following content */
+  text-align: center;
+}
+
+.input-group label {
+  font-size: 24px;
+  white-space: nowrap; /* Prevents the label from wrapping */
+}
+
+/* If you have specific styling for buttons or other elements, you can include them here */
+
+/* Remove the media queries that alter the flex-direction to 'column' */
+
