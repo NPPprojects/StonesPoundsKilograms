@@ -8,21 +8,44 @@
 </head>
 <body>
   <h1 class="converter-title">Cho's Calculator</h1> <!-- This is the new title element -->
-  <div class="converter-container">
-    <div class="input-group">
-      <input type="number" id="stones" placeholder>
-      <label>Stones</label>
-    </div>
-    <div class="input-group">
-
-      <input type="number" id="pounds" placeholder>
-      <label>Pounds</label>
-    </div>
-    <div class="input-group">
-      <input type="number" id="kilograms" placeholder>
-      <label>Kilograms</label>
-    </div>
+<!-- Original converter container -->
+<div class="converter-container">
+  <div class="input-group">
+    <input type="number" id="stones" placeholder>
+    <label>Stones</label>
   </div>
+  <div class="input-group">
+    <input type="number" id="pounds" placeholder>
+    <label>Pounds</label>
+  </div>
+  <div class="input-group">
+    <input type="number" id="kilograms" placeholder>
+    <label>Kilograms</label>
+  </div>
+</div>
+
+<!-- Percentage Input -->
+<div class="input-group" id="percentage-container">
+  <input type="number" id="percentage" placeholder="%">
+  <label></label>
+</div>
+
+<!-- Duplicated converter container for results with percentage applied -->
+<div class="converter-container" id="result-container">
+  <div class="input-group">
+    <input type="number" id="stones-result" placeholder>
+    <label>Stones</label>
+  </div>
+  <div class="input-group">
+    <input type="number" id="pounds-result" placeholder>
+    <label>Pounds</label>
+  </div>
+  <div class="input-group">
+    <input type="number" id="kilograms-result" placeholder>
+    <label>Kilograms</label>
+  </div>
+</div>
+
   <h4 class="creator-tag">Made by Neepo</h1>
 </body>
 <script src="js/script.js"></script>

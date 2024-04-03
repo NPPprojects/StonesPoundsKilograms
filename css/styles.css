@@ -52,12 +52,15 @@ body {
   white-space: nowrap; /* Prevents the label from wrapping */
 }
 
+
 .creator-tag{
 font-size:  27px;
 text-align: end;
 padding: 200px;
 color:rgb(236, 236, 33)
 }
+
+
 /* If you have specific styling for buttons or other elements, you can include them here */
 
 /* Remove the media queries that alter the flex-direction to 'column' */
